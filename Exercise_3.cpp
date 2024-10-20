@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Time Complexity :
+    push(): O(1)
+    insertAfter(): O(1)
+    append(): O(n), n is the number of elements in the list
+    printList(): O(n), n is the number of elements in the list
+
+Space Complexity :
+    linked list: O(n), n is number of elements in list
+
+Did this code successfully run on Leetcode : Couldn't find the leetcode problem
+
+Any problem you faced while coding this : None
+*/
+
 // A linked list node (changes)
 class Node
 {
